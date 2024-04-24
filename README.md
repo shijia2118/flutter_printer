@@ -1,15 +1,9 @@
-# flutter_printer
+插件集成步骤:
+1.pubspec.yaml中添加以下依赖:
+```
+flutter_printer:
+    git:
+      url: https://github.com/shijia2118/flutter_printer.git
+```
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+2.在项目的根目录的Android > app > main > 下新建jniLibs目录，同时添加相关.so库(见插件demo)
